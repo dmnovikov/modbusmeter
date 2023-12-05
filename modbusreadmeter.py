@@ -96,7 +96,7 @@ def main():
     parser.add_argument("-a", "--d_addresses", type=str, help="Адреса устройств для чтения (через запятую)")
     parser.add_argument("-r", "--registers", type=str, help="Регистры для чтения (через запятую)")
     parser.add_argument("-v", "--verbose", action="store_true", help="Включить подробный вывод")    
-    parser.add_argument("-h", "--host", action="tcp host", help="Использовать Modbus tcp")    
+    #parser.add_argument("-h", "--host", action="tcp host", help="Использовать Modbus tcp")    
 
     args = parser.parse_args()
 
